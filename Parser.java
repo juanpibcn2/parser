@@ -114,6 +114,7 @@ public class Parser {
 			//Check the number of arguments passed to the app
 			if(args.length != 2){
 				err("Wrong arg count: "+args.length);
+				err("Correct usage: java Parser </path/to/file.csv> </path/to/output.txt>");
 				return;
 			}
 			//Attempt to open the first arg file to read
